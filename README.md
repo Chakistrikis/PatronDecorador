@@ -16,10 +16,12 @@ Contiene la lógica de negocio y la estructura de datos.
 ### 🔸 Controlador (`controller/`)
 Gestiona la interacción entre la Vista y el Modelo.
 
+- `ControladorBebida.java`: Controla todas las operaciones de la app, implementando los métodos `iniciar()`y `agregarCondimentos()`.
 
 ### 🔸 Vista (`view/`)
 Interfaz con el usuario.
 
+- `VistaBebida.java`: Muestra la iterfaz en consola para la interacción con el usuario, implementando los métodos `mostrarMenu()`, `mostrarCondimentos()` 
 
 ### 🔸 Aplicación (`app/`)
 Contiene el punto de entrada del programa.
